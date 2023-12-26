@@ -2,4 +2,4 @@
 def reverse_string(string):
     return ''.join([i for i in list(string)[::-1]])
 
-print(reverse_string("hello"))
+print(reverse_string("hello")) # prints "olleh"
